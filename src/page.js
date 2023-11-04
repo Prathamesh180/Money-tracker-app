@@ -52,7 +52,7 @@ const Page = () => {
             <div className="basic">
                 <input type="text"
                 value={name}
-                onChange={ev => setName(ev.target.value)} placeholder={"Enter amount and Expense"}/>
+                onChange={ev => setName(ev.target.value)} placeholder={"Enter amount & Expense"}/>
                 <input type="datetime-local"
                 value={datetime}
                 onChange={ev => setDatetime(ev.target.value)} />
